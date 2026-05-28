@@ -3,7 +3,6 @@ __pycache__/
 .pycache/
 *.pyc
 .pytest_cache/
-outputs/
 checkpoints/
 embeddings/
 *.pt
