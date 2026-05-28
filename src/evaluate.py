@@ -24,6 +24,7 @@ def main() -> None:
     device = get_device(args.device)
     data_dir = Path(config["data"]["data_dir"])
     output_dir = ensure_dir(config["output"]["output_dir"])
+    run_name = config["output"].get("run_name", config["model"]["name"])
 
     vocab = load_vocab(data_dir / config["data"]["vocab_file"])
     dataset = SentimentDataset(data_dir / f"{args.split}.csv", vocab, config["data"]["max_len"])
@@ -34,7 +35,7 @@ def main() -> None:
         num_workers=config["training"]["num_workers"],
     )
 
-    checkpoint_path = args.checkpoint or str(Path(config["output"]["checkpoint_dir"]) / f"{config['model']['name']}_best.pt")
+    checkpoint_path = args.checkpoint or str(Path(config["output"]["checkpoint_dir"]) / f"{run_name}_best.pt")
     checkpoint = torch.load(checkpoint_path, map_location=device)
     model = build_model(config, len(vocab)).to(device)
     model.load_state_dict(checkpoint["model_state_dict"])
@@ -53,9 +54,9 @@ def main() -> None:
     metrics = compute_metrics(labels, predictions)
     metrics["checkpoint"] = checkpoint_path
     metrics["split"] = args.split
-    save_json(metrics, output_dir / f"{config['model']['name']}_{args.split}_metrics.json")
+    save_json(metrics, output_dir / f"{run_name}_{args.split}_metrics.json")
 
-    prediction_path = output_dir / f"{config['model']['name']}_{args.split}_predictions.csv"
+    prediction_path = output_dir / f"{run_name}_{args.split}_predictions.csv"
     with open(prediction_path, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["gold", "prediction", "gold_name", "prediction_name"])
@@ -64,7 +65,7 @@ def main() -> None:
 
     print(f"accuracy={metrics['accuracy']:.4f}")
     print(f"macro_f1={metrics['macro_f1']:.4f}")
-    metrics_path = output_dir / f"{config['model']['name']}_{args.split}_metrics.json"
+    metrics_path = output_dir / f"{run_name}_{args.split}_metrics.json"
     print(f"metrics_file={metrics_path}")
     print(f"predictions_file={prediction_path}")
 

@@ -44,6 +44,19 @@ def read_examples(csv_path: str | Path) -> List[Tuple[List[str], int]]:
     return examples
 
 
+def count_labels(examples: List[Tuple[List[str], int]], num_classes: int) -> torch.Tensor:
+    counts = torch.zeros(num_classes, dtype=torch.float)
+    for _, label in examples:
+        counts[label] += 1
+    return counts
+
+
+def make_class_weights(examples: List[Tuple[List[str], int]], num_classes: int) -> torch.Tensor:
+    counts = count_labels(examples, num_classes)
+    weights = counts.sum() / (num_classes * counts.clamp(min=1.0))
+    return weights / weights.mean()
+
+
 def encode_tokens(tokens: Iterable[str], vocab: Dict[str, int], max_len: int) -> Tuple[List[int], int]:
     ids = [vocab.get(token, vocab[UNK_TOKEN]) for token in tokens]
     length = min(len(ids), max_len)

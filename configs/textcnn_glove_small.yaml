@@ -1,23 +1,26 @@
 data:
   data_dir: preprocessed_file
   vocab_file: tokens2id.csv
-  max_len: 60
+  max_len: 56
   num_classes: 5
 
 model:
-  name: fasttext
+  name: textcnn
   embedding_dim: 300
-  pretrained_embeddings: null
+  pretrained_embeddings: embeddings/glove.6B.300d.txt
   freeze_embeddings: false
+  use_static_channel: false
+  num_filters: 100
+  filter_sizes: [3, 4, 5]
   dropout: 0.5
 
 training:
   seed: 42
-  epochs: 20
+  epochs: 40
   batch_size: 64
-  learning_rate: 0.001
+  learning_rate: 0.0005
   weight_decay: 0.0001
-  label_smoothing: 0.0
+  label_smoothing: 0.05
   class_weight: false
   max_grad_norm: 5.0
   lr_reduce_factor: 0.5
@@ -26,5 +29,6 @@ training:
   num_workers: 2
 
 output:
+  run_name: textcnn_glove_small
   output_dir: outputs
   checkpoint_dir: checkpoints

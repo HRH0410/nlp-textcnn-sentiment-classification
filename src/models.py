@@ -1,4 +1,4 @@
-from typing import Iterable, Sequence
+from typing import Sequence
 
 import torch
 from torch import nn
@@ -17,12 +17,28 @@ class TextCNN(nn.Module):
         filter_sizes: Sequence[int],
         dropout: float,
         padding_idx: int = 0,
+        pretrained_embeddings: torch.Tensor | None = None,
+        freeze_embeddings: bool = False,
+        use_static_channel: bool = False,
     ):
         super().__init__()
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=padding_idx)
+        if pretrained_embeddings is not None:
+            self.embedding.weight.data.copy_(pretrained_embeddings)
+        self.embedding.weight.requires_grad = not freeze_embeddings
+
+        self.static_embedding = None
+        input_dim = embedding_dim
+        if use_static_channel:
+            self.static_embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=padding_idx)
+            if pretrained_embeddings is not None:
+                self.static_embedding.weight.data.copy_(pretrained_embeddings)
+            self.static_embedding.weight.requires_grad = False
+            input_dim = embedding_dim * 2
+
         self.convs = nn.ModuleList(
             nn.Conv1d(
-                in_channels=embedding_dim,
+                in_channels=input_dim,
                 out_channels=num_filters,
                 kernel_size=filter_size,
             )
@@ -32,7 +48,11 @@ class TextCNN(nn.Module):
         self.classifier = nn.Linear(num_filters * len(filter_sizes), num_classes)
 
     def forward(self, input_ids: torch.Tensor) -> torch.Tensor:
-        embedded = self.embedding(input_ids).transpose(1, 2)
+        embedded = self.embedding(input_ids)
+        if self.static_embedding is not None:
+            static_embedded = self.static_embedding(input_ids)
+            embedded = torch.cat([embedded, static_embedded], dim=-1)
+        embedded = embedded.transpose(1, 2)
         pooled_outputs = []
         for conv in self.convs:
             features = F.relu(conv(embedded))
@@ -52,10 +72,15 @@ class FastTextClassifier(nn.Module):
         embedding_dim: int,
         dropout: float,
         padding_idx: int = 0,
+        pretrained_embeddings: torch.Tensor | None = None,
+        freeze_embeddings: bool = False,
     ):
         super().__init__()
         self.padding_idx = padding_idx
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=padding_idx)
+        if pretrained_embeddings is not None:
+            self.embedding.weight.data.copy_(pretrained_embeddings)
+        self.embedding.weight.requires_grad = not freeze_embeddings
         self.dropout = nn.Dropout(dropout)
         self.classifier = nn.Linear(embedding_dim, num_classes)
 
@@ -67,7 +92,11 @@ class FastTextClassifier(nn.Module):
         return self.classifier(self.dropout(averaged))
 
 
-def build_model(config: dict, vocab_size: int) -> nn.Module:
+def build_model(
+    config: dict,
+    vocab_size: int,
+    pretrained_embeddings: torch.Tensor | None = None,
+) -> nn.Module:
     model_name = config["model"]["name"].lower()
     common = {
         "vocab_size": vocab_size,
@@ -81,7 +110,14 @@ def build_model(config: dict, vocab_size: int) -> nn.Module:
             **common,
             num_filters=config["model"]["num_filters"],
             filter_sizes=config["model"]["filter_sizes"],
+            pretrained_embeddings=pretrained_embeddings,
+            freeze_embeddings=config["model"].get("freeze_embeddings", False),
+            use_static_channel=config["model"].get("use_static_channel", False),
         )
     if model_name == "fasttext":
-        return FastTextClassifier(**common)
+        return FastTextClassifier(
+            **common,
+            pretrained_embeddings=pretrained_embeddings,
+            freeze_embeddings=config["model"].get("freeze_embeddings", False),
+        )
     raise ValueError(f"Unsupported model: {config['model']['name']}")

@@ -2,4 +2,3 @@
 set -euo pipefail
 
 python -m src.download_glove --output-dir embeddings --dim 300
-python -m src.train --config configs/textcnn.yaml --device "${DEVICE:-cuda}"

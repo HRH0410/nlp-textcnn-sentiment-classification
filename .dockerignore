@@ -6,6 +6,7 @@ __pycache__/
 .pytest_cache/
 outputs/
 checkpoints/
+embeddings/
 reports/*.aux
 reports/*.log
 reports/*.out

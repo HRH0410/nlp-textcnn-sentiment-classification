@@ -57,16 +57,41 @@ python -m src.train --config configs/fasttext.yaml --device cpu
 docker build -t nlp-textcnn-sentiment .
 ```
 
-使用 GPU 6 运行完整实验：
+使用 GPU 6 运行完整实验。第一次运行会下载并解压 GloVe 词向量，建议挂载 `embeddings/` 目录以便后续复用：
 
 ```bash
+mkdir -p outputs checkpoints embeddings
+
 docker run --rm -it \
   --gpus '"device=6"' \
   -v "$PWD/outputs:/workspace/outputs" \
   -v "$PWD/checkpoints:/workspace/checkpoints" \
+  -v "$PWD/embeddings:/workspace/embeddings" \
   nlp-textcnn-sentiment \
   bash scripts/run_all.sh
 ```
+
+为了冲更高准确率，建议优先运行 TextCNN 参数组 sweep：
+
+```bash
+mkdir -p outputs checkpoints embeddings
+
+docker run --rm -it \
+  --gpus '"device=6"' \
+  -v "$PWD/outputs:/workspace/outputs" \
+  -v "$PWD/checkpoints:/workspace/checkpoints" \
+  -v "$PWD/embeddings:/workspace/embeddings" \
+  nlp-textcnn-sentiment \
+  bash scripts/run_textcnn_sweep.sh
+```
+
+sweep 会运行三个 TextCNN 变体：
+
+| 配置 | 说明 |
+| --- | --- |
+| `configs/textcnn.yaml` | GloVe + 双通道 TextCNN，accuracy 优先 |
+| `configs/textcnn_glove_small.yaml` | GloVe + 单通道 TextCNN，较小模型 |
+| `configs/textcnn_glove_weighted.yaml` | GloVe + 双通道 TextCNN + 类别权重，macro F1 优先 |
 
 只训练 TextCNN：
 
@@ -75,6 +100,7 @@ docker run --rm -it \
   --gpus '"device=6"' \
   -v "$PWD/outputs:/workspace/outputs" \
   -v "$PWD/checkpoints:/workspace/checkpoints" \
+  -v "$PWD/embeddings:/workspace/embeddings" \
   nlp-textcnn-sentiment \
   bash scripts/train_textcnn.sh
 ```
@@ -86,6 +112,7 @@ docker run --rm -it \
   --gpus '"device=6"' \
   -v "$PWD/outputs:/workspace/outputs" \
   -v "$PWD/checkpoints:/workspace/checkpoints" \
+  -v "$PWD/embeddings:/workspace/embeddings" \
   nlp-textcnn-sentiment \
   bash scripts/evaluate_textcnn.sh
 ```
@@ -93,14 +120,27 @@ docker run --rm -it \
 运行后重点查看：
 
 ```text
-outputs/textcnn_train_metrics.json
-outputs/textcnn_test_metrics.json
-outputs/textcnn_test_predictions.csv
+outputs/textcnn_glove_acc_train_metrics.json
+outputs/textcnn_glove_acc_test_metrics.json
+outputs/textcnn_glove_acc_test_predictions.csv
+outputs/textcnn_glove_small_test_metrics.json
+outputs/textcnn_glove_weighted_test_metrics.json
 outputs/fasttext_train_metrics.json
 outputs/fasttext_test_metrics.json
-checkpoints/textcnn_best.pt
+checkpoints/textcnn_glove_acc_best.pt
 checkpoints/fasttext_best.pt
 ```
+
+当前 TextCNN 配置使用了以下增强策略：
+
+- GloVe 300d 预训练词向量
+- 静态词向量通道 + 可训练词向量通道
+- 类别权重
+- label smoothing
+- learning rate scheduler
+- early stopping
+
+这些改动主要用于缓解小数据集上随机 embedding 的 CNN 过拟合问题。
 
 ## 报告与演示
 
