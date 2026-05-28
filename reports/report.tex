@@ -1,0 +1,141 @@
+\documentclass[UTF8,a4paper,12pt]{ctexart}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  columns=fullflexible
+}
+
+\title{基于卷积神经网络的文本情感分类}
+\author{姓名：\underline{\hspace{4cm}} \quad 学号：\underline{\hspace{4cm}}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+本文完成 Rotten Tomatoes 电影评论句子的五分类情感分类任务。项目采用 TextCNN 作为主模型，通过不同窗口大小的一维卷积捕获句子中的局部 n-gram 情感特征，并使用最大池化获得句子级表示。实验同时实现 FastText 作为 baseline，用于比较卷积结构对分类效果的影响。代码提供 Docker 环境，支持在 GPU 上完成训练、验证和测试，并自动保存实验指标与预测结果。
+\end{abstract}
+
+\section{任务描述}
+
+本项目面向句子级文本情感分类。输入为已经分词的英文电影评论句子，输出为五个情感类别之一：
+very negative、negative、neutral、positive、very positive。评价指标以准确率为主，同时报告 macro F1 作为类别不均衡情况下的补充指标。
+
+\section{数据集}
+
+实验使用课程提供的 Rotten Tomatoes 预处理数据。数据划分如表~\ref{tab:data} 所示。
+
+\begin{table}[h]
+\centering
+\caption{数据集规模}
+\label{tab:data}
+\begin{tabular}{lr}
+\toprule
+划分 & 样本数 \\
+\midrule
+训练集 & 8544 \\
+验证集 & 1101 \\
+测试集 & 2210 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+句子平均长度约为 18 个 token，最长句子约 53 个 token。实验中统一将句子长度截断或补齐到 60。词表由训练前提供的 \texttt{tokens2id.csv} 读取，并额外加入 \texttt{<pad>} 与 \texttt{<unk>}。
+
+\section{方法}
+
+\subsection{TextCNN}
+
+TextCNN 首先将输入 token 序列 $x_1, x_2, \dots, x_n$ 映射为词向量序列：
+\[
+E = [e_1, e_2, \dots, e_n], \quad e_i \in \mathbb{R}^d
+\]
+
+随后使用多个卷积核大小 $h \in \{3,4,5\}$ 的一维卷积提取局部特征：
+\[
+c_i = f(W \cdot E_{i:i+h-1} + b)
+\]
+其中 $f$ 为 ReLU 激活函数。对每个卷积通道进行最大池化：
+\[
+\hat{c} = \max_i c_i
+\]
+最后拼接不同卷积核得到的特征，经过 dropout 和全连接层输出五分类 logits。
+
+\subsection{Baseline}
+
+为了验证卷积结构的作用，本文实现 FastText 风格 baseline。该模型对句子中所有 token 的 embedding 取平均，然后直接输入线性分类器。该方法结构简单，可以作为非卷积模型的参考对比。
+
+\section{实验设置}
+
+主要超参数如表~\ref{tab:hyperparams} 所示。
+
+\begin{table}[h]
+\centering
+\caption{主要实验超参数}
+\label{tab:hyperparams}
+\begin{tabular}{lr}
+\toprule
+参数 & 取值 \\
+\midrule
+embedding 维度 & 300 \\
+TextCNN 卷积窗口 & 3, 4, 5 \\
+每种窗口卷积核数量 & 100 \\
+dropout & 0.5 \\
+batch size & 64 \\
+学习率 & 0.001 \\
+训练轮数 & 20 \\
+优化器 & AdamW \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+所有实验均在 Docker 容器中运行，服务器使用 NVIDIA GPU。运行命令示例如下：
+
+\begin{lstlisting}[language=bash]
+docker run --rm -it --gpus '"device=6"' \
+  -v "$PWD/outputs:/workspace/outputs" \
+  -v "$PWD/checkpoints:/workspace/checkpoints" \
+  nlp-textcnn-sentiment bash scripts/run_all.sh
+\end{lstlisting}
+
+\section{实验结果}
+
+请在服务器运行实验后，将 \texttt{outputs/*metrics.json} 中的结果填入表~\ref{tab:results}。
+
+\begin{table}[h]
+\centering
+\caption{测试集实验结果}
+\label{tab:results}
+\begin{tabular}{lrr}
+\toprule
+模型 & Accuracy & Macro F1 \\
+\midrule
+FastText baseline & 待填写 & 待填写 \\
+TextCNN & 待填写 & 待填写 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{结果分析}
+
+从结果上看，FastText baseline 只使用词向量平均表示句子，能够捕获整体词汇情感倾向，但对局部短语结构建模能力较弱。TextCNN 通过不同窗口大小的卷积核提取短语级特征，例如否定结构、情感形容词短语等，因此通常能够获得更好的分类效果。
+
+如果混淆矩阵显示 negative 与 very negative、positive 与 very positive 之间混淆较多，这是合理现象，因为相邻情感强度类别语义边界较模糊。相比之下，neutral 与强情感类别之间的错误更能反映模型是否真正理解情感线索。
+
+\section{总结}
+
+本文实现了一个完整的文本情感分类实验流程，包括数据加载、TextCNN 建模、baseline 对比、训练验证、测试评估、Docker 部署和结果保存。实验代码结构清晰，可在服务器容器环境中复现。后续可以进一步引入预训练词向量、BERT 类预训练模型或更细致的超参数搜索，以继续提升分类效果。
+
+\end{document}

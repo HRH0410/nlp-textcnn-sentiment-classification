@@ -1,0 +1,22 @@
+data:
+  data_dir: preprocessed_file
+  vocab_file: tokens2id.csv
+  max_len: 60
+  num_classes: 5
+
+model:
+  name: fasttext
+  embedding_dim: 300
+  dropout: 0.5
+
+training:
+  seed: 42
+  epochs: 20
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  num_workers: 2
+
+output:
+  output_dir: outputs
+  checkpoint_dir: checkpoints

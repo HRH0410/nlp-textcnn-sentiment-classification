@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+.pycache/
+*.pyc
+.pytest_cache/
+outputs/
+checkpoints/
+*.pt
+*.pth
+reports/*.aux
+reports/*.log
+reports/*.out
+reports/*.toc
