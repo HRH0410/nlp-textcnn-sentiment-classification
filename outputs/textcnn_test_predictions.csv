@@ -1,0 +1,2211 @@
+gold,prediction,gold_name,prediction_name
+2,1,neutral,negative
+3,3,positive,positive
+4,1,very positive,negative
+2,3,neutral,positive
+4,4,very positive,very positive
+3,3,positive,positive
+3,2,positive,neutral
+3,1,positive,negative
+3,3,positive,positive
+4,4,very positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+2,1,neutral,negative
+3,3,positive,positive
+2,3,neutral,positive
+4,4,very positive,very positive
+3,3,positive,positive
+4,3,very positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+1,3,negative,positive
+3,1,positive,negative
+4,0,very positive,very negative
+4,3,very positive,positive
+2,3,neutral,positive
+3,1,positive,negative
+3,3,positive,positive
+1,3,negative,positive
+3,3,positive,positive
+3,1,positive,negative
+3,3,positive,positive
+1,0,negative,very negative
+2,1,neutral,negative
+4,3,very positive,positive
+0,1,very negative,negative
+4,3,very positive,positive
+4,0,very positive,very negative
+3,3,positive,positive
+2,1,neutral,negative
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,1,positive,negative
+3,2,positive,neutral
+2,3,neutral,positive
+3,4,positive,very positive
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+1,1,negative,negative
+3,3,positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+2,3,neutral,positive
+4,3,very positive,positive
+4,2,very positive,neutral
+4,3,very positive,positive
+3,0,positive,very negative
+1,2,negative,neutral
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,0,very positive,very negative
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+1,3,negative,positive
+3,0,positive,very negative
+0,3,very negative,positive
+3,1,positive,negative
+3,3,positive,positive
+4,3,very positive,positive
+2,3,neutral,positive
+4,4,very positive,very positive
+3,1,positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+3,1,positive,negative
+4,1,very positive,negative
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+2,1,neutral,negative
+2,3,neutral,positive
+4,1,very positive,negative
+3,3,positive,positive
+2,1,neutral,negative
+4,3,very positive,positive
+3,4,positive,very positive
+1,0,negative,very negative
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,1,very positive,negative
+4,1,very positive,negative
+2,3,neutral,positive
+3,4,positive,very positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,0,positive,very negative
+1,3,negative,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+1,1,negative,negative
+3,3,positive,positive
+3,1,positive,negative
+3,4,positive,very positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,1,positive,negative
+3,1,positive,negative
+3,3,positive,positive
+3,1,positive,negative
+1,3,negative,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+1,1,negative,negative
+4,3,very positive,positive
+3,1,positive,negative
+3,3,positive,positive
+3,1,positive,negative
+3,3,positive,positive
+3,1,positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+3,4,positive,very positive
+3,4,positive,very positive
+3,4,positive,very positive
+2,3,neutral,positive
+4,3,very positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+2,1,neutral,negative
+3,3,positive,positive
+4,3,very positive,positive
+4,4,very positive,very positive
+0,3,very negative,positive
+4,3,very positive,positive
+3,4,positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+3,0,positive,very negative
+4,3,very positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,3,positive,positive
+4,4,very positive,very positive
+3,3,positive,positive
+3,4,positive,very positive
+4,3,very positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,1,very positive,negative
+3,1,positive,negative
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,0,positive,very negative
+2,1,neutral,negative
+3,3,positive,positive
+3,1,positive,negative
+2,1,neutral,negative
+4,1,very positive,negative
+3,3,positive,positive
+4,1,very positive,negative
+3,3,positive,positive
+4,1,very positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+4,4,very positive,very positive
+3,3,positive,positive
+2,1,neutral,negative
+1,2,negative,neutral
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+1,3,negative,positive
+4,3,very positive,positive
+4,3,very positive,positive
+2,3,neutral,positive
+4,3,very positive,positive
+4,4,very positive,very positive
+3,3,positive,positive
+4,3,very positive,positive
+2,1,neutral,negative
+4,3,very positive,positive
+3,3,positive,positive
+1,1,negative,negative
+2,3,neutral,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+2,2,neutral,neutral
+3,4,positive,very positive
+4,3,very positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+2,3,neutral,positive
+4,3,very positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+2,1,neutral,negative
+3,3,positive,positive
+3,3,positive,positive
+1,1,negative,negative
+2,2,neutral,neutral
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,2,very positive,neutral
+2,2,neutral,neutral
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+2,1,neutral,negative
+2,3,neutral,positive
+4,1,very positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+2,1,neutral,negative
+4,1,very positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+2,3,neutral,positive
+4,1,very positive,negative
+3,3,positive,positive
+3,3,positive,positive
+1,1,negative,negative
+4,3,very positive,positive
+3,2,positive,neutral
+4,1,very positive,negative
+4,3,very positive,positive
+4,3,very positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+3,2,positive,neutral
+3,0,positive,very negative
+1,3,negative,positive
+4,3,very positive,positive
+2,3,neutral,positive
+2,0,neutral,very negative
+3,1,positive,negative
+3,3,positive,positive
+3,3,positive,positive
+2,1,neutral,negative
+3,3,positive,positive
+3,1,positive,negative
+3,3,positive,positive
+2,1,neutral,negative
+3,1,positive,negative
+2,3,neutral,positive
+4,3,very positive,positive
+4,3,very positive,positive
+2,1,neutral,negative
+2,3,neutral,positive
+2,3,neutral,positive
+3,2,positive,neutral
+4,3,very positive,positive
+3,0,positive,very negative
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+1,3,negative,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,0,positive,very negative
+3,4,positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+2,1,neutral,negative
+3,1,positive,negative
+1,3,negative,positive
+2,3,neutral,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,1,very positive,negative
+4,3,very positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,4,positive,very positive
+2,4,neutral,very positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,0,very positive,very negative
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,1,very positive,negative
+2,1,neutral,negative
+3,3,positive,positive
+3,0,positive,very negative
+4,3,very positive,positive
+2,3,neutral,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,0,very positive,very negative
+1,2,negative,neutral
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,3,positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+4,4,very positive,very positive
+2,3,neutral,positive
+4,3,very positive,positive
+1,1,negative,negative
+3,1,positive,negative
+2,3,neutral,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+1,1,negative,negative
+3,3,positive,positive
+4,2,very positive,neutral
+4,3,very positive,positive
+4,4,very positive,very positive
+2,3,neutral,positive
+3,1,positive,negative
+2,3,neutral,positive
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+4,3,very positive,positive
+1,3,negative,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+2,3,neutral,positive
+2,3,neutral,positive
+4,3,very positive,positive
+1,3,negative,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,1,positive,negative
+3,3,positive,positive
+2,3,neutral,positive
+4,3,very positive,positive
+4,3,very positive,positive
+2,1,neutral,negative
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,2,positive,neutral
+4,3,very positive,positive
+2,2,neutral,neutral
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+4,1,very positive,negative
+3,3,positive,positive
+3,3,positive,positive
+0,0,very negative,very negative
+3,1,positive,negative
+3,3,positive,positive
+3,1,positive,negative
+2,3,neutral,positive
+2,3,neutral,positive
+2,1,neutral,negative
+3,2,positive,neutral
+3,1,positive,negative
+3,1,positive,negative
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,1,positive,negative
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,0,positive,very negative
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+2,3,neutral,positive
+2,0,neutral,very negative
+3,3,positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+2,3,neutral,positive
+4,4,very positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,4,positive,very positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+3,2,positive,neutral
+3,1,positive,negative
+4,1,very positive,negative
+3,1,positive,negative
+2,1,neutral,negative
+1,3,negative,positive
+3,3,positive,positive
+0,1,very negative,negative
+4,3,very positive,positive
+2,1,neutral,negative
+4,3,very positive,positive
+3,4,positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,4,positive,very positive
+2,3,neutral,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,4,positive,very positive
+1,1,negative,negative
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+2,2,neutral,neutral
+2,3,neutral,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,4,positive,very positive
+3,4,positive,very positive
+4,4,very positive,very positive
+1,3,negative,positive
+2,3,neutral,positive
+2,3,neutral,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+1,3,negative,positive
+2,3,neutral,positive
+2,1,neutral,negative
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+1,3,negative,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+4,3,very positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+4,4,very positive,very positive
+3,1,positive,negative
+2,3,neutral,positive
+4,4,very positive,very positive
+3,3,positive,positive
+2,1,neutral,negative
+2,3,neutral,positive
+3,0,positive,very negative
+4,3,very positive,positive
+3,3,positive,positive
+3,2,positive,neutral
+4,3,very positive,positive
+4,0,very positive,very negative
+4,4,very positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+2,3,neutral,positive
+4,3,very positive,positive
+2,1,neutral,negative
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,1,positive,negative
+4,3,very positive,positive
+4,3,very positive,positive
+1,1,negative,negative
+2,3,neutral,positive
+3,3,positive,positive
+4,4,very positive,very positive
+3,1,positive,negative
+3,3,positive,positive
+3,1,positive,negative
+3,1,positive,negative
+3,3,positive,positive
+1,1,negative,negative
+3,3,positive,positive
+2,1,neutral,negative
+3,3,positive,positive
+3,3,positive,positive
+1,0,negative,very negative
+4,4,very positive,very positive
+3,3,positive,positive
+0,1,very negative,negative
+4,3,very positive,positive
+1,3,negative,positive
+0,0,very negative,very negative
+1,3,negative,positive
+2,2,neutral,neutral
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+1,1,negative,negative
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,0,very positive,very negative
+4,4,very positive,very positive
+2,3,neutral,positive
+4,3,very positive,positive
+1,3,negative,positive
+3,3,positive,positive
+3,1,positive,negative
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+2,1,neutral,negative
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,3,positive,positive
+3,0,positive,very negative
+2,3,neutral,positive
+3,3,positive,positive
+4,2,very positive,neutral
+3,4,positive,very positive
+4,3,very positive,positive
+1,3,negative,positive
+4,3,very positive,positive
+3,2,positive,neutral
+4,4,very positive,very positive
+1,1,negative,negative
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,4,positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+3,1,positive,negative
+3,3,positive,positive
+4,2,very positive,neutral
+2,2,neutral,neutral
+3,3,positive,positive
+3,4,positive,very positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+0,2,very negative,neutral
+3,1,positive,negative
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,4,positive,very positive
+0,3,very negative,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+4,4,very positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+2,3,neutral,positive
+2,1,neutral,negative
+4,3,very positive,positive
+4,4,very positive,very positive
+4,4,very positive,very positive
+3,3,positive,positive
+3,4,positive,very positive
+4,1,very positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+2,1,neutral,negative
+2,1,neutral,negative
+3,3,positive,positive
+3,1,positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+1,1,negative,negative
+3,1,positive,negative
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+3,3,positive,positive
+2,3,neutral,positive
+4,3,very positive,positive
+2,3,neutral,positive
+2,1,neutral,negative
+4,3,very positive,positive
+2,1,neutral,negative
+3,1,positive,negative
+3,1,positive,negative
+4,3,very positive,positive
+2,3,neutral,positive
+4,3,very positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+4,1,very positive,negative
+3,0,positive,very negative
+4,4,very positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+2,3,neutral,positive
+4,3,very positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,1,very positive,negative
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,1,very positive,negative
+4,2,very positive,neutral
+4,2,very positive,neutral
+4,1,very positive,negative
+3,1,positive,negative
+3,3,positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,3,positive,positive
+3,0,positive,very negative
+4,4,very positive,very positive
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,0,positive,very negative
+4,3,very positive,positive
+2,4,neutral,very positive
+4,3,very positive,positive
+3,3,positive,positive
+4,1,very positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,4,very positive,very positive
+3,4,positive,very positive
+3,1,positive,negative
+3,2,positive,neutral
+3,1,positive,negative
+2,3,neutral,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,3,positive,positive
+3,1,positive,negative
+4,3,very positive,positive
+3,1,positive,negative
+3,1,positive,negative
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+0,0,very negative,very negative
+3,3,positive,positive
+4,4,very positive,very positive
+3,3,positive,positive
+3,4,positive,very positive
+3,1,positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,2,very positive,neutral
+3,3,positive,positive
+4,4,very positive,very positive
+4,4,very positive,very positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,1,very positive,negative
+3,3,positive,positive
+4,4,very positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+1,3,negative,positive
+2,3,neutral,positive
+3,4,positive,very positive
+4,3,very positive,positive
+3,3,positive,positive
+3,4,positive,very positive
+3,3,positive,positive
+3,1,positive,negative
+3,3,positive,positive
+4,1,very positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+3,1,positive,negative
+4,3,very positive,positive
+2,1,neutral,negative
+1,1,negative,negative
+2,2,neutral,neutral
+2,2,neutral,neutral
+3,3,positive,positive
+4,3,very positive,positive
+2,3,neutral,positive
+4,3,very positive,positive
+2,1,neutral,negative
+2,2,neutral,neutral
+2,3,neutral,positive
+2,3,neutral,positive
+3,3,positive,positive
+2,1,neutral,negative
+3,1,positive,negative
+3,0,positive,very negative
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+1,3,negative,positive
+2,3,neutral,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+2,1,neutral,negative
+3,3,positive,positive
+4,0,very positive,very negative
+2,1,neutral,negative
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+3,0,positive,very negative
+2,3,neutral,positive
+3,1,positive,negative
+1,3,negative,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,1,very positive,negative
+4,4,very positive,very positive
+3,0,positive,very negative
+2,3,neutral,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+3,3,positive,positive
+2,1,neutral,negative
+2,3,neutral,positive
+2,1,neutral,negative
+3,4,positive,very positive
+3,3,positive,positive
+4,3,very positive,positive
+2,1,neutral,negative
+1,1,negative,negative
+2,3,neutral,positive
+3,3,positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+4,1,very positive,negative
+1,0,negative,very negative
+4,4,very positive,very positive
+4,4,very positive,very positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+0,1,very negative,negative
+3,1,positive,negative
+2,0,neutral,very negative
+0,1,very negative,negative
+4,3,very positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+2,3,neutral,positive
+2,3,neutral,positive
+4,3,very positive,positive
+1,1,negative,negative
+3,1,positive,negative
+3,1,positive,negative
+4,3,very positive,positive
+3,1,positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,1,very positive,negative
+3,3,positive,positive
+3,3,positive,positive
+3,1,positive,negative
+2,2,neutral,neutral
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+1,1,negative,negative
+2,3,neutral,positive
+3,3,positive,positive
+2,2,neutral,neutral
+4,4,very positive,very positive
+3,3,positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+4,3,very positive,positive
+1,3,negative,positive
+4,3,very positive,positive
+4,1,very positive,negative
+3,1,positive,negative
+4,4,very positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+4,4,very positive,very positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+2,1,neutral,negative
+4,3,very positive,positive
+4,4,very positive,very positive
+3,4,positive,very positive
+4,4,very positive,very positive
+2,3,neutral,positive
+4,3,very positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+4,1,very positive,negative
+3,3,positive,positive
+2,3,neutral,positive
+3,3,positive,positive
+3,3,positive,positive
+2,1,neutral,negative
+1,1,negative,negative
+1,3,negative,positive
+4,4,very positive,very positive
+3,3,positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,1,very positive,negative
+1,1,negative,negative
+2,3,neutral,positive
+4,1,very positive,negative
+2,3,neutral,positive
+0,1,very negative,negative
+4,3,very positive,positive
+3,4,positive,very positive
+4,3,very positive,positive
+4,3,very positive,positive
+4,3,very positive,positive
+1,3,negative,positive
+2,3,neutral,positive
+2,4,neutral,very positive
+3,3,positive,positive
+3,1,positive,negative
+4,3,very positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,3,positive,positive
+3,4,positive,very positive
+2,1,neutral,negative
+3,3,positive,positive
+4,3,very positive,positive
+3,4,positive,very positive
+2,1,neutral,negative
+3,3,positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,4,positive,very positive
+3,3,positive,positive
+4,3,very positive,positive
+3,1,positive,negative
+3,3,positive,positive
+4,3,very positive,positive
+3,3,positive,positive
+2,3,neutral,positive
+1,1,negative,negative
+1,3,negative,positive
+4,3,very positive,positive
+2,0,neutral,very negative
+0,3,very negative,positive
+0,1,very negative,negative
+0,1,very negative,negative
+1,3,negative,positive
+0,3,very negative,positive
+1,3,negative,positive
+3,0,positive,very negative
+1,1,negative,negative
+0,1,very negative,negative
+0,1,very negative,negative
+2,1,neutral,negative
+1,1,negative,negative
+1,3,negative,positive
+1,2,negative,neutral
+1,1,negative,negative
+2,1,neutral,negative
+2,3,neutral,positive
+2,1,neutral,negative
+1,1,negative,negative
+1,1,negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+0,1,very negative,negative
+0,4,very negative,very positive
+1,1,negative,negative
+1,1,negative,negative
+1,0,negative,very negative
+2,3,neutral,positive
+0,1,very negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+0,1,very negative,negative
+0,0,very negative,very negative
+2,3,neutral,positive
+1,2,negative,neutral
+1,1,negative,negative
+2,1,neutral,negative
+0,0,very negative,very negative
+1,1,negative,negative
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+2,1,neutral,negative
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+0,3,very negative,positive
+0,3,very negative,positive
+2,1,neutral,negative
+2,3,neutral,positive
+3,3,positive,positive
+4,3,very positive,positive
+3,4,positive,very positive
+1,3,negative,positive
+2,3,neutral,positive
+0,1,very negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+1,2,negative,neutral
+0,1,very negative,negative
+1,3,negative,positive
+2,3,neutral,positive
+1,3,negative,positive
+0,3,very negative,positive
+4,3,very positive,positive
+1,2,negative,neutral
+1,3,negative,positive
+1,3,negative,positive
+0,1,very negative,negative
+0,3,very negative,positive
+1,2,negative,neutral
+0,1,very negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+1,3,negative,positive
+4,3,very positive,positive
+1,1,negative,negative
+1,1,negative,negative
+2,1,neutral,negative
+1,1,negative,negative
+0,1,very negative,negative
+0,1,very negative,negative
+2,4,neutral,very positive
+2,3,neutral,positive
+1,0,negative,very negative
+2,1,neutral,negative
+0,0,very negative,very negative
+3,1,positive,negative
+2,3,neutral,positive
+0,1,very negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+2,1,neutral,negative
+0,2,very negative,neutral
+3,3,positive,positive
+1,3,negative,positive
+4,3,very positive,positive
+1,1,negative,negative
+3,4,positive,very positive
+0,3,very negative,positive
+1,1,negative,negative
+2,3,neutral,positive
+3,3,positive,positive
+0,2,very negative,neutral
+0,3,very negative,positive
+2,0,neutral,very negative
+1,1,negative,negative
+1,0,negative,very negative
+1,1,negative,negative
+2,2,neutral,neutral
+1,3,negative,positive
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+0,3,very negative,positive
+1,1,negative,negative
+0,0,very negative,very negative
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+2,1,neutral,negative
+3,1,positive,negative
+1,1,negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+0,1,very negative,negative
+0,1,very negative,negative
+1,2,negative,neutral
+1,3,negative,positive
+4,2,very positive,neutral
+2,3,neutral,positive
+1,1,negative,negative
+3,3,positive,positive
+2,3,neutral,positive
+2,1,neutral,negative
+2,2,neutral,neutral
+2,1,neutral,negative
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+2,3,neutral,positive
+0,0,very negative,very negative
+1,1,negative,negative
+1,1,negative,negative
+3,3,positive,positive
+1,2,negative,neutral
+1,1,negative,negative
+2,3,neutral,positive
+1,1,negative,negative
+0,1,very negative,negative
+1,1,negative,negative
+1,2,negative,neutral
+0,1,very negative,negative
+2,3,neutral,positive
+2,3,neutral,positive
+1,0,negative,very negative
+2,1,neutral,negative
+1,1,negative,negative
+1,1,negative,negative
+3,3,positive,positive
+1,1,negative,negative
+2,3,neutral,positive
+1,1,negative,negative
+0,3,very negative,positive
+1,2,negative,neutral
+0,3,very negative,positive
+0,3,very negative,positive
+2,1,neutral,negative
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+2,3,neutral,positive
+1,0,negative,very negative
+1,1,negative,negative
+0,1,very negative,negative
+2,3,neutral,positive
+1,3,negative,positive
+1,1,negative,negative
+3,1,positive,negative
+0,3,very negative,positive
+0,1,very negative,negative
+1,0,negative,very negative
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,0,negative,very negative
+1,0,negative,very negative
+1,1,negative,negative
+2,3,neutral,positive
+1,3,negative,positive
+2,4,neutral,very positive
+2,3,neutral,positive
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+1,3,negative,positive
+0,3,very negative,positive
+1,3,negative,positive
+1,3,negative,positive
+1,3,negative,positive
+2,3,neutral,positive
+1,1,negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+1,0,negative,very negative
+2,3,neutral,positive
+1,3,negative,positive
+1,1,negative,negative
+2,2,neutral,neutral
+1,1,negative,negative
+0,1,very negative,negative
+2,1,neutral,negative
+0,1,very negative,negative
+2,1,neutral,negative
+2,3,neutral,positive
+1,1,negative,negative
+0,3,very negative,positive
+1,1,negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+0,3,very negative,positive
+0,1,very negative,negative
+2,3,neutral,positive
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+0,1,very negative,negative
+1,1,negative,negative
+2,1,neutral,negative
+2,3,neutral,positive
+2,3,neutral,positive
+2,1,neutral,negative
+0,0,very negative,very negative
+1,2,negative,neutral
+2,2,neutral,neutral
+1,1,negative,negative
+0,1,very negative,negative
+0,3,very negative,positive
+0,0,very negative,very negative
+1,0,negative,very negative
+1,1,negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+0,1,very negative,negative
+1,3,negative,positive
+1,3,negative,positive
+3,3,positive,positive
+1,3,negative,positive
+0,4,very negative,very positive
+3,3,positive,positive
+2,1,neutral,negative
+3,3,positive,positive
+2,3,neutral,positive
+2,0,neutral,very negative
+0,1,very negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+1,3,negative,positive
+0,1,very negative,negative
+1,1,negative,negative
+1,1,negative,negative
+1,2,negative,neutral
+1,1,negative,negative
+1,3,negative,positive
+0,3,very negative,positive
+1,1,negative,negative
+1,0,negative,very negative
+2,1,neutral,negative
+0,1,very negative,negative
+2,1,neutral,negative
+1,3,negative,positive
+0,1,very negative,negative
+2,1,neutral,negative
+0,1,very negative,negative
+1,1,negative,negative
+1,1,negative,negative
+1,4,negative,very positive
+2,3,neutral,positive
+3,4,positive,very positive
+1,1,negative,negative
+0,1,very negative,negative
+1,3,negative,positive
+1,1,negative,negative
+0,2,very negative,neutral
+1,1,negative,negative
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+1,0,negative,very negative
+1,1,negative,negative
+0,1,very negative,negative
+2,0,neutral,very negative
+0,3,very negative,positive
+1,3,negative,positive
+1,1,negative,negative
+2,0,neutral,very negative
+2,2,neutral,neutral
+0,1,very negative,negative
+1,3,negative,positive
+2,1,neutral,negative
+1,1,negative,negative
+0,0,very negative,very negative
+1,3,negative,positive
+1,1,negative,negative
+2,1,neutral,negative
+0,1,very negative,negative
+3,3,positive,positive
+1,1,negative,negative
+0,3,very negative,positive
+0,2,very negative,neutral
+0,1,very negative,negative
+1,3,negative,positive
+3,3,positive,positive
+2,1,neutral,negative
+1,3,negative,positive
+1,0,negative,very negative
+1,1,negative,negative
+0,0,very negative,very negative
+0,3,very negative,positive
+3,3,positive,positive
+1,3,negative,positive
+2,3,neutral,positive
+1,1,negative,negative
+0,0,very negative,very negative
+0,1,very negative,negative
+2,1,neutral,negative
+2,3,neutral,positive
+0,0,very negative,very negative
+1,1,negative,negative
+0,1,very negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+1,1,negative,negative
+0,1,very negative,negative
+2,1,neutral,negative
+0,0,very negative,very negative
+1,3,negative,positive
+1,3,negative,positive
+1,1,negative,negative
+0,3,very negative,positive
+2,1,neutral,negative
+1,0,negative,very negative
+2,2,neutral,neutral
+2,3,neutral,positive
+1,1,negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+1,2,negative,neutral
+3,3,positive,positive
+2,1,neutral,negative
+1,0,negative,very negative
+1,3,negative,positive
+1,3,negative,positive
+3,3,positive,positive
+1,1,negative,negative
+0,1,very negative,negative
+0,0,very negative,very negative
+1,3,negative,positive
+2,3,neutral,positive
+0,1,very negative,negative
+2,1,neutral,negative
+1,1,negative,negative
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+1,1,negative,negative
+2,1,neutral,negative
+1,1,negative,negative
+0,3,very negative,positive
+0,1,very negative,negative
+2,3,neutral,positive
+2,1,neutral,negative
+1,1,negative,negative
+4,1,very positive,negative
+1,3,negative,positive
+2,3,neutral,positive
+0,1,very negative,negative
+2,0,neutral,very negative
+2,3,neutral,positive
+1,1,negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+1,1,negative,negative
+1,3,negative,positive
+2,3,neutral,positive
+1,3,negative,positive
+2,1,neutral,negative
+0,1,very negative,negative
+2,3,neutral,positive
+1,1,negative,negative
+1,1,negative,negative
+0,0,very negative,very negative
+2,1,neutral,negative
+2,1,neutral,negative
+2,1,neutral,negative
+1,1,negative,negative
+2,1,neutral,negative
+1,1,negative,negative
+0,1,very negative,negative
+2,2,neutral,neutral
+1,1,negative,negative
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+1,3,negative,positive
+2,1,neutral,negative
+1,3,negative,positive
+2,1,neutral,negative
+1,1,negative,negative
+2,3,neutral,positive
+0,4,very negative,very positive
+1,1,negative,negative
+0,2,very negative,neutral
+0,1,very negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+0,2,very negative,neutral
+2,1,neutral,negative
+1,1,negative,negative
+1,2,negative,neutral
+1,3,negative,positive
+1,3,negative,positive
+0,3,very negative,positive
+0,1,very negative,negative
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+1,3,negative,positive
+0,3,very negative,positive
+0,3,very negative,positive
+2,3,neutral,positive
+0,1,very negative,negative
+0,3,very negative,positive
+1,2,negative,neutral
+0,3,very negative,positive
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+1,3,negative,positive
+1,0,negative,very negative
+1,1,negative,negative
+1,3,negative,positive
+1,2,negative,neutral
+1,1,negative,negative
+1,0,negative,very negative
+1,2,negative,neutral
+0,1,very negative,negative
+1,1,negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+0,0,very negative,very negative
+0,2,very negative,neutral
+1,3,negative,positive
+0,1,very negative,negative
+0,3,very negative,positive
+1,1,negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+1,1,negative,negative
+1,3,negative,positive
+1,4,negative,very positive
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+0,0,very negative,very negative
+3,3,positive,positive
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,0,negative,very negative
+0,3,very negative,positive
+1,3,negative,positive
+1,3,negative,positive
+0,0,very negative,very negative
+1,3,negative,positive
+1,1,negative,negative
+0,1,very negative,negative
+1,1,negative,negative
+2,1,neutral,negative
+1,3,negative,positive
+1,3,negative,positive
+4,4,very positive,very positive
+1,1,negative,negative
+0,1,very negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+1,3,negative,positive
+2,2,neutral,neutral
+1,1,negative,negative
+1,1,negative,negative
+0,3,very negative,positive
+2,3,neutral,positive
+1,0,negative,very negative
+1,3,negative,positive
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+2,2,neutral,neutral
+0,1,very negative,negative
+1,1,negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+1,1,negative,negative
+1,1,negative,negative
+0,3,very negative,positive
+1,3,negative,positive
+0,0,very negative,very negative
+2,1,neutral,negative
+0,1,very negative,negative
+0,1,very negative,negative
+3,3,positive,positive
+1,1,negative,negative
+2,3,neutral,positive
+1,0,negative,very negative
+0,0,very negative,very negative
+1,3,negative,positive
+2,3,neutral,positive
+1,1,negative,negative
+0,1,very negative,negative
+2,3,neutral,positive
+1,0,negative,very negative
+0,2,very negative,neutral
+0,1,very negative,negative
+1,2,negative,neutral
+0,1,very negative,negative
+1,1,negative,negative
+1,3,negative,positive
+3,3,positive,positive
+2,0,neutral,very negative
+0,0,very negative,very negative
+1,3,negative,positive
+0,1,very negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+2,1,neutral,negative
+1,1,negative,negative
+2,3,neutral,positive
+0,1,very negative,negative
+1,3,negative,positive
+2,3,neutral,positive
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+1,4,negative,very positive
+0,1,very negative,negative
+0,1,very negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+2,1,neutral,negative
+0,3,very negative,positive
+1,2,negative,neutral
+0,0,very negative,very negative
+1,3,negative,positive
+0,1,very negative,negative
+0,4,very negative,very positive
+1,1,negative,negative
+2,3,neutral,positive
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+3,3,positive,positive
+1,1,negative,negative
+2,1,neutral,negative
+2,2,neutral,neutral
+0,1,very negative,negative
+3,3,positive,positive
+2,1,neutral,negative
+2,1,neutral,negative
+1,1,negative,negative
+2,1,neutral,negative
+0,1,very negative,negative
+0,1,very negative,negative
+1,1,negative,negative
+1,1,negative,negative
+1,3,negative,positive
+2,3,neutral,positive
+2,3,neutral,positive
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+2,3,neutral,positive
+2,1,neutral,negative
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+0,0,very negative,very negative
+2,1,neutral,negative
+1,3,negative,positive
+3,3,positive,positive
+0,1,very negative,negative
+0,1,very negative,negative
+2,1,neutral,negative
+0,1,very negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,0,negative,very negative
+1,1,negative,negative
+2,3,neutral,positive
+0,3,very negative,positive
+0,3,very negative,positive
+1,3,negative,positive
+2,1,neutral,negative
+2,0,neutral,very negative
+3,1,positive,negative
+1,0,negative,very negative
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+2,1,neutral,negative
+2,1,neutral,negative
+1,3,negative,positive
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+0,3,very negative,positive
+1,1,negative,negative
+2,1,neutral,negative
+0,3,very negative,positive
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+1,1,negative,negative
+1,1,negative,negative
+3,1,positive,negative
+1,3,negative,positive
+2,3,neutral,positive
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+0,3,very negative,positive
+1,1,negative,negative
+0,0,very negative,very negative
+2,2,neutral,neutral
+1,2,negative,neutral
+0,0,very negative,very negative
+0,3,very negative,positive
+0,3,very negative,positive
+3,3,positive,positive
+2,3,neutral,positive
+1,1,negative,negative
+1,2,negative,neutral
+1,1,negative,negative
+0,3,very negative,positive
+2,1,neutral,negative
+0,1,very negative,negative
+1,1,negative,negative
+1,3,negative,positive
+3,3,positive,positive
+1,3,negative,positive
+4,4,very positive,very positive
+1,0,negative,very negative
+1,3,negative,positive
+1,3,negative,positive
+2,3,neutral,positive
+1,1,negative,negative
+2,3,neutral,positive
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+2,3,neutral,positive
+2,3,neutral,positive
+1,1,negative,negative
+3,3,positive,positive
+1,1,negative,negative
+2,0,neutral,very negative
+1,0,negative,very negative
+3,3,positive,positive
+1,3,negative,positive
+0,3,very negative,positive
+2,1,neutral,negative
+1,1,negative,negative
+2,3,neutral,positive
+0,3,very negative,positive
+1,3,negative,positive
+1,3,negative,positive
+0,1,very negative,negative
+2,0,neutral,very negative
+1,1,negative,negative
+2,0,neutral,very negative
+2,1,neutral,negative
+2,3,neutral,positive
+0,0,very negative,very negative
+0,1,very negative,negative
+1,1,negative,negative
+0,3,very negative,positive
+0,0,very negative,very negative
+0,1,very negative,negative
+0,1,very negative,negative
+1,3,negative,positive
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+1,3,negative,positive
+1,1,negative,negative
+0,1,very negative,negative
+0,3,very negative,positive
+1,1,negative,negative
+2,3,neutral,positive
+2,0,neutral,very negative
+2,1,neutral,negative
+2,1,neutral,negative
+0,1,very negative,negative
+2,1,neutral,negative
+2,3,neutral,positive
+2,1,neutral,negative
+1,3,negative,positive
+2,1,neutral,negative
+2,1,neutral,negative
+0,1,very negative,negative
+1,0,negative,very negative
+1,3,negative,positive
+0,3,very negative,positive
+2,0,neutral,very negative
+1,3,negative,positive
+1,1,negative,negative
+1,4,negative,very positive
+1,3,negative,positive
+0,1,very negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+2,3,neutral,positive
+3,3,positive,positive
+0,3,very negative,positive
+1,3,negative,positive
+0,1,very negative,negative
+1,3,negative,positive
+0,3,very negative,positive
+0,1,very negative,negative
+1,3,negative,positive
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+1,2,negative,neutral
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+0,3,very negative,positive
+2,3,neutral,positive
+0,0,very negative,very negative
+0,1,very negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+2,1,neutral,negative
+1,3,negative,positive
+2,3,neutral,positive
+1,3,negative,positive
+0,1,very negative,negative
+1,2,negative,neutral
+0,3,very negative,positive
+2,3,neutral,positive
+1,3,negative,positive
+2,1,neutral,negative
+1,1,negative,negative
+2,3,neutral,positive
+1,3,negative,positive
+0,1,very negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+0,1,very negative,negative
+0,3,very negative,positive
+0,1,very negative,negative
+1,0,negative,very negative
+2,3,neutral,positive
+2,1,neutral,negative
+2,1,neutral,negative
+1,2,negative,neutral
+3,3,positive,positive
+1,1,negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+2,1,neutral,negative
+1,0,negative,very negative
+1,3,negative,positive
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+1,1,negative,negative
+1,3,negative,positive
+1,2,negative,neutral
+1,1,negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+1,0,negative,very negative
+1,3,negative,positive
+1,1,negative,negative
+0,1,very negative,negative
+0,0,very negative,very negative
+2,3,neutral,positive
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+0,3,very negative,positive
+1,4,negative,very positive
+3,3,positive,positive
+1,3,negative,positive
+1,3,negative,positive
+3,2,positive,neutral
+2,1,neutral,negative
+1,3,negative,positive
+2,3,neutral,positive
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+2,1,neutral,negative
+0,1,very negative,negative
+0,1,very negative,negative
+1,4,negative,very positive
+0,0,very negative,very negative
+4,3,very positive,positive
+0,3,very negative,positive
+2,1,neutral,negative
+0,1,very negative,negative
+0,3,very negative,positive
+0,1,very negative,negative
+1,3,negative,positive
+2,3,neutral,positive
+1,0,negative,very negative
+1,1,negative,negative
+3,0,positive,very negative
+1,1,negative,negative
+2,2,neutral,neutral
+1,1,negative,negative
+0,0,very negative,very negative
+2,3,neutral,positive
+0,3,very negative,positive
+2,3,neutral,positive
+2,1,neutral,negative
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+1,3,negative,positive
+2,1,neutral,negative
+2,3,neutral,positive
+0,0,very negative,very negative
+1,3,negative,positive
+0,1,very negative,negative
+1,3,negative,positive
+1,2,negative,neutral
+0,2,very negative,neutral
+2,1,neutral,negative
+0,3,very negative,positive
+1,1,negative,negative
+2,1,neutral,negative
+2,1,neutral,negative
+2,1,neutral,negative
+0,3,very negative,positive
+2,1,neutral,negative
+2,2,neutral,neutral
+2,3,neutral,positive
+1,3,negative,positive
+1,3,negative,positive
+1,0,negative,very negative
+1,1,negative,negative
+2,1,neutral,negative
+1,1,negative,negative
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,2,negative,neutral
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+1,0,negative,very negative
+1,3,negative,positive
+1,0,negative,very negative
+1,0,negative,very negative
+0,1,very negative,negative
+2,1,neutral,negative
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+0,1,very negative,negative
+1,3,negative,positive
+1,3,negative,positive
+2,0,neutral,very negative
+1,1,negative,negative
+0,1,very negative,negative
+1,3,negative,positive
+1,0,negative,very negative
+1,2,negative,neutral
+1,1,negative,negative
+2,3,neutral,positive
+1,0,negative,very negative
+1,1,negative,negative
+2,1,neutral,negative
+1,3,negative,positive
+1,1,negative,negative
+2,1,neutral,negative
+1,3,negative,positive
+1,1,negative,negative
+0,3,very negative,positive
+1,1,negative,negative
+2,3,neutral,positive
+1,3,negative,positive
+4,4,very positive,very positive
+1,1,negative,negative
+1,0,negative,very negative
+3,3,positive,positive
+1,1,negative,negative
+1,1,negative,negative
+0,0,very negative,very negative
+0,1,very negative,negative
+2,2,neutral,neutral
+1,0,negative,very negative
+1,0,negative,very negative
+0,3,very negative,positive
+0,1,very negative,negative
+1,3,negative,positive
+2,3,neutral,positive
+2,3,neutral,positive
+1,3,negative,positive
+3,0,positive,very negative
+1,3,negative,positive
+2,0,neutral,very negative
+1,2,negative,neutral
+2,3,neutral,positive
+2,2,neutral,neutral
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+1,1,negative,negative
+2,1,neutral,negative
+2,1,neutral,negative
+0,1,very negative,negative
+1,0,negative,very negative
+1,1,negative,negative
+0,1,very negative,negative
+2,3,neutral,positive
+1,3,negative,positive
+2,3,neutral,positive
+0,1,very negative,negative
+1,2,negative,neutral
+1,1,negative,negative
+0,3,very negative,positive
+1,1,negative,negative
+3,3,positive,positive
+0,1,very negative,negative
+1,3,negative,positive
+2,3,neutral,positive
+2,3,neutral,positive
+1,4,negative,very positive
+1,4,negative,very positive
+1,1,negative,negative
+1,0,negative,very negative
+1,3,negative,positive
+2,0,neutral,very negative
+2,4,neutral,very positive
+1,1,negative,negative
+3,3,positive,positive
+1,3,negative,positive
+1,1,negative,negative
+0,3,very negative,positive
+1,0,negative,very negative
+1,1,negative,negative
+1,3,negative,positive
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+0,1,very negative,negative
+3,3,positive,positive
+1,1,negative,negative
+1,1,negative,negative
+0,3,very negative,positive
+1,3,negative,positive
+0,0,very negative,very negative
+2,3,neutral,positive
+2,3,neutral,positive
+1,1,negative,negative
+1,2,negative,neutral
+2,3,neutral,positive
+0,1,very negative,negative
+1,1,negative,negative
+2,1,neutral,negative
+1,3,negative,positive
+1,2,negative,neutral
+2,4,neutral,very positive
+2,2,neutral,neutral
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+1,3,negative,positive
+0,1,very negative,negative
+0,1,very negative,negative
+2,3,neutral,positive
+0,1,very negative,negative
+1,1,negative,negative
+0,0,very negative,very negative
+0,1,very negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+1,3,negative,positive
+1,1,negative,negative
+2,1,neutral,negative
+3,1,positive,negative
+2,1,neutral,negative
+1,3,negative,positive
+2,3,neutral,positive
+2,3,neutral,positive
+1,3,negative,positive
+1,1,negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+1,1,negative,negative
+0,1,very negative,negative
+0,1,very negative,negative
+0,0,very negative,very negative
+0,1,very negative,negative
+1,2,negative,neutral
+1,0,negative,very negative
+1,1,negative,negative
+1,0,negative,very negative
+1,0,negative,very negative
+1,3,negative,positive
+0,1,very negative,negative
+0,1,very negative,negative
+0,1,very negative,negative
+2,0,neutral,very negative
+1,3,negative,positive
+1,2,negative,neutral
+2,3,neutral,positive
+0,3,very negative,positive
+2,1,neutral,negative
+0,1,very negative,negative
+1,0,negative,very negative
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+2,1,neutral,negative
+1,1,negative,negative
+1,3,negative,positive
+0,2,very negative,neutral
+1,1,negative,negative
+2,3,neutral,positive
+0,3,very negative,positive
+1,3,negative,positive
+1,3,negative,positive
+1,3,negative,positive
+0,0,very negative,very negative
+0,0,very negative,very negative
+0,2,very negative,neutral
+1,3,negative,positive
+1,2,negative,neutral
+2,1,neutral,negative
+1,1,negative,negative
+1,3,negative,positive
+1,3,negative,positive
+2,1,neutral,negative
+1,1,negative,negative
+1,1,negative,negative
+0,3,very negative,positive
+1,3,negative,positive
+3,3,positive,positive
+3,1,positive,negative
+1,1,negative,negative
+1,1,negative,negative
+2,3,neutral,positive
+0,3,very negative,positive
+1,1,negative,negative
+0,0,very negative,very negative
+1,2,negative,neutral
+1,2,negative,neutral
+2,2,neutral,neutral
+1,3,negative,positive
+1,1,negative,negative
+0,1,very negative,negative
+0,3,very negative,positive
+2,3,neutral,positive
+1,3,negative,positive
+0,3,very negative,positive
+1,3,negative,positive
+0,1,very negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+2,3,neutral,positive
+1,1,negative,negative
+1,3,negative,positive
+0,1,very negative,negative
+1,1,negative,negative
+1,0,negative,very negative
+3,3,positive,positive
+4,4,very positive,very positive
+4,3,very positive,positive
+3,1,positive,negative
+0,1,very negative,negative
